@@ -4,17 +4,6 @@
 
 The Evaluation Metrics Project is a tool designed to assess and analyze various metrics using the Groq API and DeepEval framework. This project aims to provide insights into [specific metrics or goals of your project].
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -52,20 +41,7 @@ Follow these steps to set up the Evaluation Metrics Project:
    ```bash
    pip install -r requirements.txt
    ```
-
-## Usage
-
-To use the Evaluation Metrics Project:
-
-1. Ensure your virtual environment is activated.
-
-2. Run the main script:
-   ```bash
-   python main.py
-   ```
-
-[Add more specific usage instructions or examples here]
-
+   
 ## Configuration
 
 1. Create a `.env` file in the project root directory.
