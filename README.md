@@ -10,7 +10,10 @@ First, create a virtual environment to isolate the project dependencies. You can
 
 ```bash
 # On Windows
+
+```
 python -m venv venv
+```
 
 # On macOS/Linux
 python3 -m venv venv
@@ -22,7 +25,7 @@ python3 -m venv venv
 
 Use the following command to install the required packages from `requirements.txt`:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -40,6 +43,6 @@ Make sure to replace `....API...KEY...` with your actual API key.
 
 Run the test script `test_rag.py` using the `deepeval` command:
 
-```bash
+```
 deepeval test run test_rag.py
 ```
