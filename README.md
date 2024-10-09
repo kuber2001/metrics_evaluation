@@ -1,48 +1,86 @@
-# Evaluation Metrics
+# Evaluation Metrics Project
 
-## Setup Instructions
+## Overview
 
-Follow these steps to set up the project on your local machine:
+The Evaluation Metrics Project is a tool designed to assess and analyze various metrics using the Groq API and DeepEval framework. This project aims to provide insights into [specific metrics or goals of your project].
 
-### 1. Create a Virtual Environment
+## Table of Contents
 
-First, create a virtual environment to isolate the project dependencies. You can do this using `python -m venv`:
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Python 3.7 or higher
+- pip (Python package installer)
+- A Groq API key
+
+## Installation
+
+Follow these steps to set up the Evaluation Metrics Project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/evaluation-metrics.git
+   cd evaluation-metrics
+   ```
+
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+
+3. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+To use the Evaluation Metrics Project:
+
+1. Ensure your virtual environment is activated.
+
+2. Run the main script:
+   ```bash
+   python main.py
+   ```
+
+[Add more specific usage instructions or examples here]
+
+## Configuration
+
+1. Create a `.env` file in the project root directory.
+
+2. Add your Groq API key to the `.env` file:
+   ```
+   GROQ_API_KEY="your_actual_api_key_here"
+   ```
+
+3. Replace `your_actual_api_key_here` with your actual Groq API key.
+
+## Testing
+
+To run the evaluation tests:
 
 ```bash
-# On Windows
-
-```
-python -m venv venv
-```
-
-# On macOS/Linux
-python3 -m venv venv
-
-
-# Project Setup Instructions
-
-### 2. Install Dependencies
-
-Use the following command to install the required packages from `requirements.txt`:
-
-```
-pip install -r requirements.txt
-```
-
-### 3. Set Up Environment Variables
-
-Create a `.env` file in the project directory and add your `GROQ_API_KEY`:
-
-```
-GROQ_API_KEY="....API...KEY..."
-```
-
-Make sure to replace `....API...KEY...` with your actual API key.
-
-### 4. Run the Evaluation Test
-
-Run the test script `test_rag.py` using the `deepeval` command:
-
-```
 deepeval test run test_rag.py
 ```
